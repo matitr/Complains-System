@@ -34,16 +34,25 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        loginwindow.cpp \
-    clientwindow.cpp
+    ClientWindow.cpp \
+    LoginWindow.cpp \
+    QualityEmployeeWindow.cpp \
+    TraderWindow.cpp \
+    ComplainsDisplay.cpp
 
 HEADERS += \
-        loginwindow.h \
-    clientwindow.h
+    ClientWindow.h \
+    LoginWindow.h \
+    QualityEmployeeWindow.h \
+    TraderWindow.h \
+    ComplainsDisplay.h
 
 FORMS += \
         loginwindow.ui \
-    clientwindow.ui
+    clientwindow.ui \
+    traderwindow.ui \
+    qualityemployeewindow.ui \
+    complainsdisplay.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
